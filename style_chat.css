@@ -1,0 +1,160 @@
+body {
+    background-image: url("../img/background/background_chat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+#body_chat{
+    background-color: aliceblue;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.9;
+}
+#card-title{
+    text-align: center;
+    display: block;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+#card_chat{
+    margin-top: 10%;
+}
+#card_profile{
+    position: absolute;
+    top: 30%; left: 2%;
+    width: 20%;
+}
+#card_friend{
+    position: absolute;
+    top: 30%; right: 2%;
+    width: 20%;
+}
+.card-image {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.card:hover .card-image img {
+    width: 160%;
+    filter: grayscale(0);
+}
+.card-image img {
+    width: 150%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(1);
+    transition-property: filter width; 
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+.image-ronde-profile{
+    background-size : contain;
+    background-position : 50% 50%; 
+    display : inline-block;
+    width : 40px; height : 40px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+}
+.image-ronde{
+    width : 50px; height : 50px;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px; 
+    border-radius : 75px;
+}
+#name_list{
+    vertical-align:middle;
+}
+.list_name{
+    margin-bottom: 0px;
+    margin-left: 1%;
+}
+#table_list_name{
+    width: 100%;
+}
+#td_list_img{
+    width: 50px;
+}
+#tilte_friend{
+    text-align: center;
+}
+#friend{
+    position: absolute;
+    top: 30%; right: 2%;
+    width: 20%;
+}
+#table_msg{
+    width: 100%;
+}
+.msg_text_user{
+    width: 90%;
+}
+.msg_img_user{
+    text-align: right;
+}
+#text_msg_user{
+    border: solid 2px black;
+    background-color: rgb(5, 117, 242, 0.4);
+    max-width: 545px;
+    vertical-align: middle;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    box-shadow: 2px 5px 5px rgba(26, 26, 26, 0.878);
+}
+.msg_text_friend{
+    width: 90%;
+}
+.msg_img_friend{
+    text-align: left;
+}
+#text_msg_friend{
+    border: solid 2px black;
+    background-color: rgba(194, 199, 212, 0.4);;
+    max-width: 545px;
+    vertical-align: middle;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    box-shadow: 2px 5px 5px rgba(26, 26, 26, 0.878);
+}
+#message_card_chat{
+    background: linear-gradient(45deg, #ffffff, #ccd3f7);
+}
+.image-ronde-profile_msg{
+    background-size : contain;
+    background-position : 50% 50%; 
+    display : inline-block;
+    width : 40px; height : 40px;
+    border:#ffff solid 1px;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+    box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.878);
+}
+#icon_msg{
+    width: 25px;
+}
+#send_msg{
+    margin-top: 2%;
+}
+.a_see_more{
+    text-align: center;
+    display: block;
+    margin-top: 2%;
+}
+#name_surname_profil{
+    margin-top: 1%;
+}
+#file_profil{
+    margin-top: 2%;
+}
+.img_profile{
+    height: 150px;
+}
+#input_file{
+    margin-top: 3%;
+}
+#group_name{
+    margin-bottom: 10%;
+}

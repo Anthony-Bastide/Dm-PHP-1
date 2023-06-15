@@ -1,0 +1,55 @@
+body {
+    background-image: url("../img/background/background_registration.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#card_registration{
+    width: 25%;
+    position: fixed;
+    top: 15%; left: 37.5%;
+    background: linear-gradient(45deg, #ffffff, #ccd3f7);
+    opacity: 0.8;
+    
+}
+#card-title{
+    text-align: center;
+    display: block;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+#form_card_registration{
+    background-color: #f4f6f9;
+    margin-top: 8%;
+    box-shadow: 7px 5px 5px rgba(26, 26, 26, 0.878);
+}
+#mail{
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+#pass{
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+#button_form_mailpas{
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+#button_registration{
+    width: 100%;
+    box-shadow: 7px 5px 5px rgba(26, 26, 26, 0.878);
+    margin-top: 5%;
+}
+#name{
+    margin-left: 10%;
+    width: 40%;
+}
+#surname{
+    margin-right: 10%;
+    width: 40%;
+}
+#identifier{
+    margin-top: 5%;
+}
