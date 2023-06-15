@@ -102,6 +102,7 @@ body {
     margin-bottom: 2%;
     margin-top: 2%;
     box-shadow: 2px 5px 5px rgba(26, 26, 26, 0.878);
+    margin-left: auto;
 }
 .msg_text_friend{
     width: 90%;
